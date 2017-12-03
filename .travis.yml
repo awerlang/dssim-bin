@@ -1,6 +1,6 @@
 language: rust
 cache: cargo
-before_install:
-  - curl https://github.com/pornel/dssim/archive/2.8.0.tar.gz | tar -zx
+install:
+  - npm install
 script:
-  - cargo build --release
+  - npm run build
