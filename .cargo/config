@@ -1,6 +1,0 @@
-[build]
-target-dir = './vendor'
-
-[term]
-verbose = true
-color = 'auto'
