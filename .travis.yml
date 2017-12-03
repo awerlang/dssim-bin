@@ -2,7 +2,8 @@ language: rust
 cache: cargo
 install:
   - npm install
-script: true
+script:
+  - ls vendor/release/build
 os:
   - linux
   - osx
