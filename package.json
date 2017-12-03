@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "postinstall": "npm run build",
-    "build": "cross-env CARGO_TARGET_DIR=./vendor CARGO_TERM_VERBOSE=true node lib/install.js",
+    "build": "node lib/install.js",
     "test": "mocha --timeout 50000"
   },
   "keywords": [
